@@ -1,5 +1,6 @@
 package main.java.sort;
 
+import java.io.File;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
@@ -18,6 +19,8 @@ public class SwapDemo {
 		System.out.println(Arrays.toString(array));
 		swapByOperation(array,0,1);
 		System.out.println(Arrays.toString(array));
+
+		System.out.println("file ==========="+File.separator);
 	}
 
 	/**
